@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Form Tag in HTML</title>
+	</head>
+	<body>
+			<form method="get" style="border:3px;border-style:solid;border-color:#000000;padding: 1em;width:400px;height:65px">
+			<p style="width:90px;margin-top:-25px;margin-left:5px;background:white">Your Details:</p>
+			Name:<input type="text" name="name" maxlength="100"/>
+			<br />
+			Email:<input type="text" name="name" maxlength="100"/>
+			</form>
+			<form method="get" style="border:3px;border-style:solid;border-color:#000000;padding: 1em;width:400px;height:350">
+			<p style="width:95px;margin-top:-25px;margin-left:5px;background:white">Your Review:</p>
+			How did you hear about us? 
+			<select>
+				<option>Google</option>
+				<option>Newspaper</option>
+				<option>Television</option>
+				<option>Yahoo</option>
+			</select>
+			<br/>
+			<br/>
+			Would you visit again? 
+			<input type="radio" name="visit" value="yes" checked/>Yes
+			<input type="radio" name="visit" value="no"/>No
+			<input type="radio" name="visit" value="may be"/>May be 
+			<br/>
+			<br/>
+			Comments: 
+			<br/>
+			<textarea name="comments" rows="10" cols="40"></textarea>
+			<br/>
+			<input type="checkbox" name="sign" checked>Sign me up for email updates.
+			<br/>
+			<button>Submit Review</button>
+			</form>
+	</body>
+</html>
